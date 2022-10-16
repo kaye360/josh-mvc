@@ -16,4 +16,6 @@ define('URL_ROOT', 'http://localhost:81/projects/josh-mvc');
 // Site name
 define('SITE_NAME', 'Josh MVC');
 
+// Git should ignore this
+
 ?>
