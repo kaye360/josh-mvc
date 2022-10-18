@@ -8,3 +8,12 @@
     <title><?php echo SITE_NAME; ?></title>
 </head>
 <body>
+
+<?php 
+// print_r($_SESSION); 
+?>
+
+<?php require 'navbar.php'; ?>
+
+
+<main class="container">

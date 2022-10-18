@@ -2,7 +2,7 @@
 
 // App Core Class
 // Creates URL and loads core controller
-// URL Format - /controleler/method/params
+// URL Format - /controller/method/params
 
 class Core {
   protected $currentController = 'Pages';
@@ -18,6 +18,7 @@ class Core {
       // Url Format:
       // controller/method/params
 
+      // TODO: add if isset $url[0]
       //Look in controllers for first value
       if ( file_exists('../app/controllers/' . ucwords($url[0]) . '.php') ) {
         // If file exists, set as controller

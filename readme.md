@@ -1,6 +1,9 @@
 # PHP Model View Controller Framework + App
 Here is my PHP Model-View-Controller App. This is based off the course 'Object Oriented PHP & MVC' by Brad Traversy on Udemy
 
+## App Flowchart
+![App Flowchart](flow.png "App Flowchart")
+
 ## App Structure
 
 Root
@@ -35,6 +38,3 @@ Root
 
 /public/index.php -> initialize app
 
-
-
-- index.php -> Init App

@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
 body {
-    /* background-color: darkblue; */
+    font-family: Inter, Arial, sans-serif;
+}
+
+nav {
+    display : flex;
+    justify-items: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display : flex;
+    gap : 1.5rem;
+    margin-left : auto;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin-inline : auto;
+    padding : 1rem;
+}
+
+label {
+    display : block;
 }
