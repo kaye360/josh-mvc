@@ -27,3 +27,36 @@ nav ul {
 label {
     display : block;
 }
+
+.back {
+    margin-bottom : 1rem;
+}
+
+.post {
+    margin-bottom : 2rem;
+    padding : 1rem;
+    border : 1px solid #eee;
+    border-radius: 0.5rem;
+}
+
+.post-info {
+    margin-bottom : 2rem;
+}
+
+.edit-delete {
+    margin-block : 1rem;
+    padding : 1rem;
+    background-color : #eee;
+}
+
+textarea {
+    resize: none;
+    width : 100%;
+    max-width : 600px;
+    height : 300px;
+}
+
+.edit-add-title {
+    width : 100%;
+    max-width : 600px;
+}

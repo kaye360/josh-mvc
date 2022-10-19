@@ -1,7 +1,8 @@
 <?php require APP_ROOT . '/views/includes/header.php'; ?>
 
+<?php flash('post_message'); ?>
 
-<h1><?php echo $data['title']; ?></h1>
+<h1>Posts</h1>
 
 <?php foreach($data['posts'] as $post) : ?>
 
@@ -9,7 +10,7 @@
 
   <h2><?php echo $post->title; ?></h2>
 
-  <div class="post-author">
+  <div class="post-info">
     By: <?php echo $post->name; ?> on <?php echo $post->postCreated; ?>
   </div>
 
